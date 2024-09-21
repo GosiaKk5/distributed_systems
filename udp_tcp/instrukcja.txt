@@ -1,0 +1,11 @@
+POCZATEK:
+del *.class  (Windows)
+javac Starter.java Server.java Client.java TcpConnection.java UdpConnection.java
+
+START SERWERA:
+java Starter s <numer_portu>
+np. java Starter s 12345
+
+START KLIENTA:
+java Starter c <numer_portu> <nick>
+np. java Starter c 12345 Ania

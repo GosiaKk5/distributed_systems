@@ -1,0 +1,4 @@
+Adapter1.Endpoints=tcp -h 127.0.0.2 -p 11000 -z -t 10000 : udp -h 127.0.0.2 -p 11000 -z
+Adapter1.ThreadPool.Size=10
+Ice.Warn.Connections=1
+Ice.Trace.Network=1

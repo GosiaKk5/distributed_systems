@@ -1,0 +1,31 @@
+Lamp1_1.Proxy=Lamp/Lamp1 : tcp -h 127.0.0.2 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+Lamp1_2.Proxy=Lamp/Lamp2 : tcp -h 127.0.0.2 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+
+SuperLamp1_1.Proxy=SuperLamp/SuperLamp1 : tcp -h 127.0.0.2 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+
+DancingSuperLamp1_1.Proxy=DancingSuperLamp/DancingSuperLamp1 : tcp -h 127.0.0.2 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+
+GarageDoor1_1.Proxy=GarageDoor/GarageDoor1 : tcp -h 127.0.0.2 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+
+Termohigrometr1_1.Proxy=Termohigrometr/Termohigrometr1 : tcp -h 127.0.0.2 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+
+TermohigrometrWithHistory1_1.Proxy=TermohigrometrWithHistory/TermohigrometrWithHistory1 : tcp -h 127.0.0.2 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+
+
+
+Lamp2_1.Proxy=Lamp/Lamp1 : tcp -h 127.0.0.2 -p 11000 -z : udp -h 127.0.0.2 -p 11000 -z
+
+SuperLamp2_1.Proxy=SuperLamp/SuperLamp1 : tcp -h 127.0.0.2 -p 11000 -z : udp -h 127.0.0.2 -p 11000 -z
+
+DancingSuperLamp2_1.Proxy=DancingSuperLamp/DancingSuperLamp1 : tcp -h 127.0.0.2 -p 11000 -z : udp -h 127.0.0.2 -p 11000 -z
+
+GarageDoor2_1.Proxy=GarageDoor/GarageDoor1 : tcp -h 127.0.0.2 -p 11000 -z : udp -h 127.0.0.2 -p 11000 -z
+
+Termohigrometr2_1.Proxy=Termohigrometr/Termohigrometr1 : tcp -h 127.0.0.2 -p 11000 -z : udp -h 127.0.0.2 -p 11000 -z
+
+TermohigrometrWithHistory2_1.Proxy=TermohigrometrWithHistory/TermohigrometrWithHistory1 : tcp -h 127.0.0.2 -p 11000 -z : udp -h 127.0.0.2 -p 11000 -z
+
+
+Ice.Warn.Connections=1
+Ice.ACM.Timeout=10
+Ice.Trace.Network=0
